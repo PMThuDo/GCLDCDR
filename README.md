@@ -27,12 +27,6 @@ To prevent negative transfer (where irrelevant source data hurts target performa
 
 - *Reverse Process (Neural Decoder)*: The model learns to reverse the diffusion, selectively recovering only the features relevant to the target task while filtering out misaligned signals.
 
-### 🛠️ Architecture
-The framework consists of two primary stages:
-
-**1. Intra-Domain Enhancement**: Two complementary augmentation modules (structural denoising and feature perturbation) optimize representations within a single domain.
-
-**2. Inter-Domain Transfer**: A diffusion-based mechanism that progressively perturbs source representations and reverses the process to filter out misaligned signals, preventing negative transfer.
 
 ### 📝 Citation
 
