@@ -33,20 +33,12 @@ To prevent negative transfer (where irrelevant source data hurts target performa
 If you find this work useful in your research, please consider citing our paper:
 
 @article{do2025graph,
-
   title={Graph Contrastive Learning With Diffusion-Based Transfer for Cross-Domain Recommender System},
-
   author={Do, Pham Minh Thu and Zhang, Qian and Zhang, Guangquan and Lu, Jie},
-
   journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
-
   volume={56},
-
   number={1},
-
   pages={375--386},
-
   year={2025},
-  
   publisher={IEEE}
 }
