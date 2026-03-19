@@ -11,7 +11,7 @@ Cross-Domain Recommender Systems (CDRSs) aim to alleviate data sparsity by trans
 
 ### 🛠️ Key Components
 
-**1. Graph Contrastive Learning (GCL) Module**
+**1. Graph Contrastive Learning Module**
 
 To improve the quality of user/item representations within a single domain, we employ two augmentation strategies:
 
@@ -25,7 +25,7 @@ To prevent negative transfer (where irrelevant source data hurts target performa
 
 - *Forward Process*: Source-domain user representations are gradually perturbed using a Gaussian diffusion process.
 
-- *Reverse Process (Neural Decoder)*: The model learns to reverse the diffusion, selectively recovering only the features relevant to the target task while filtering out misaligned signals.
+- *Reverse Process*: The model learns to reverse the diffusion, selectively recovering only the features relevant to the target task while filtering out misaligned signals.
 
 
 ### 📝 Citation
@@ -33,12 +33,20 @@ To prevent negative transfer (where irrelevant source data hurts target performa
 If you find this work useful in your research, please consider citing our paper:
 
 @article{do2025graph,
+
   title={Graph Contrastive Learning With Diffusion-Based Transfer for Cross-Domain Recommender System},
+
   author={Do, Pham Minh Thu and Zhang, Qian and Zhang, Guangquan and Lu, Jie},
+
   journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+
   volume={56},
+
   number={1},
+
   pages={375--386},
+
   year={2025},
+  
   publisher={IEEE}
 }
